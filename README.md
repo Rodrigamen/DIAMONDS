@@ -1,9 +1,10 @@
 # DIAMONDS
 
-Objetivo del proyecto
+# Objetivo del proyecto:
+
 El objetivo de este proyecto es entrenar el mejor modelo de predicción posible para predecir el precio de los diamantes dadas sus características y participar en la competición de kaggle aunque no vaya a ganarla.
 
-Metodología:
+# Metodología:
 
 1) Análisis del dataset de train y adaptación de los datos
 
@@ -11,20 +12,21 @@ Metodología:
 
 3) Predicción en los datos reales
 
-Organización del proyecto
+# Organización del proyecto
 
-Carpeta src donde se encuentran las funciones aplicadas y separadas por la dedicación que se les da.
+1) Carpeta src donde se encuentran las funciones aplicadas y separadas por la dedicación que se les da.
 
-Carpeta notebooks donde se encuentran los .ipynb donde analizo y limpio datos, entreno modelo y predigo el precio en el archivo test
+2) Carpeta notebooks donde se encuentran los .ipynb donde analizo y limpio datos, entreno modelo y predigo el precio en el archivo test
 
-Carpeta data donde se encuentran los archivos donde se almacenan los test, train y el escalar resultantes del mejor modelo
+3) Carpeta data donde se encuentran los archivos donde se almacenan los test, train y el escalar resultantes del mejor modelo
 
-Carpeta presentación donde se muestra las diapositivas a presentar en clase
+3) Carpeta presentación donde se muestra las diapositivas a presentar en clase
 
-Conclusiones
+# Conclusiones:
+
 Tras ejecutar hasta cinco pipelines, encuentro que el mejor modelo es un Gradient Boost. A recalcar que no hay real diferencia tras varios análisis entre las predicciones quitando y sin quitar outliers, lo cual no me deja de parecer curioso.
 
-Enlaces de interés
+# Enlaces de interés
 NumPy - https://numpy.org/doc/stable/
 
 sklearn - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html
